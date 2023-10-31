@@ -1,0 +1,19 @@
+body{
+	width: 100vw;
+    height: 100vh;
+	background-image: url('./themes/imagemLogin.jpg');
+	background-size: 100%;	
+}
+
+body > .grid {
+	height: 100%;
+}
+
+.image {
+	margin-top: -100px;
+}
+
+.column {
+	max-width: 450px;
+ }
+ 

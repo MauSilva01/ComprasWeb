@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Compras</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>home.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <jsp-config>
+    <taglib>
+        <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+        <taglib-location>/WEB-INF/lib/jstl.jar</taglib-location>
+    </taglib>
+</jsp-config>
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>Compras.Servlets.login</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listaProdutos</servlet-name>
+        <servlet-class>Compras.Servlets.listaProdutos</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>listaMercados</servlet-name>
+        <servlet-class>Compras.Servlets.listaMercados</servlet-class>
+    </servlet>
+    
+     <servlet>
+        <servlet-name>listaCompras</servlet-name>
+        <servlet-class>Compras.Servlets.listaCompras</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>editarProdutos</servlet-name>
+        <servlet-class>Compras.Servlets.editarProdutos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>editarLista</servlet-name>
+        <servlet-class>Compras.Servlets.editarLista</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>editarMercados</servlet-name>
+        <servlet-class>Compras.Servlets.editarMercados</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SalvarEdicaoProduto</servlet-name>
+        <servlet-class>Compras.Servlets.SalvarEdicaoProduto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SalvarEdicaoCompras</servlet-name>
+        <servlet-class>Compras.Servlets.SalvarEdicaoCompras</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SalvarEdicaoMercados</servlet-name>
+        <servlet-class>Compras.Servlets.SalvarEdicaoMercados</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>excluirProdutos</servlet-name>
+        <servlet-class>Compras.Servlets.excluirProdutos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>excluirListaCompras</servlet-name>
+        <servlet-class>Compras.Servlets.excluirListaCompras</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>excluirMercados</servlet-name>
+        <servlet-class>Compras.Servlets.excluirProdutos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adicionarProduto</servlet-name>
+        <servlet-class>Compras.Servlets.adicionarProduto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adicionarListaCompra</servlet-name>
+        <servlet-class>Compras.Servlets.adicionarListaCompra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adicionarMercados</servlet-name>
+        <servlet-class>Compras.Servlets.adicionarMercados</servlet-class>
+    </servlet>
+
+</web-app>
